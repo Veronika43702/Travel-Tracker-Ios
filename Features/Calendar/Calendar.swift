@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct CalendarView: View {
-    @Environment(\.theme) private var theme
+    @EnvironmentObject var themeManager: ThemeManager
     
     var body: some View {
         VStack {
             Text("Calendar Screen")
-                .font(theme.typography.titleLarge)
-                .foregroundColor(AppColors.Light.primary)
+//                  .font(theme.typography.titleLarge)
         }
     }
 }

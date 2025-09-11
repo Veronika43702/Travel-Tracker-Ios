@@ -9,12 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     @Environment(\.theme) private var theme
-
+    
     var body: some View {
         VStack {
             Text("Home Screen")
-                .font(theme.typography.titleLarge)
-                .foregroundColor(AppColors.Light.primary)
+                .padding()
+                .background(theme.colors.background)
+                .cornerRadius(8)
         }
     }
 }

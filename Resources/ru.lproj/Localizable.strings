@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  TravelTracker
+
+  Created by Veronika Firsova on 11.09.2025.
+  
+*/
+
+"settings_title" = "Настройки";
+"settings_language_title" = "Язык приложения";
+"settings_language_description" = "Выберите язык интерфейса";
+"settings_language_system" = "Системный";
+"settings_language_russian" = "Русский";
+"settings_language_english" = "English";
+
+"settings_theme_title" = "Тема приложения";
+"settings_theme_description" = "Выберите оформление";
+"settings_theme_light" = "Светлая";
+"settings_theme_dark" = "Темная";
+"settings_theme_system" = "Системная";
+
+"settings_date_format_title" = "Формат даты";
+"settings_date_format_description" = "Выберите формат отображения дат";
+"settings_date_format_dd_mm_yyyy_dots" = "дд.мм.гггг";
+"settings_date_format_dd_mm_yyyy_slashes" = "дд/мм/гггг";
+"settings_date_format_mm_dd_yyyy" = "мм/дд/гггг";
+"settings_date_format_yyyy_mm_dd" = "гггг-мм-дд";
+"settings_date_format_dd_mmm_yyyy" = "дд ммм гггг";
+
+"settings_about_title" = "О приложении";
+"settings_app_version" = "Версия приложения";
+
+"settings_category_general" = "Общие";
+"settings_category_appearance" = "Внешний вид";
+"settings_category_about" = "Информация";

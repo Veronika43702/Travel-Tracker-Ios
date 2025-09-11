@@ -55,6 +55,11 @@
 			path = Features;
 			sourceTree = "<group>";
 		};
+		1724143C2E72BB230019A46E /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 		172413DE2E72A9EF0019A46E = {
 			isa = PBXGroup;
 			children = (
+				1724143C2E72BB230019A46E /* Resources */,
 				172414192E72AD000019A46E /* Features */,
 				172414152E72ACE00019A46E /* CoreUI */,
 				172413E92E72A9EF0019A46E /* TravelTracker */,
@@ -123,6 +129,7 @@
 				172413E92E72A9EF0019A46E /* TravelTracker */,
 				172414152E72ACE00019A46E /* CoreUI */,
 				172414192E72AD000019A46E /* Features */,
+				1724143C2E72BB230019A46E /* Resources */,
 			);
 			name = TravelTracker;
 			packageProductDependencies = (
@@ -206,6 +213,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 172413DE2E72A9EF0019A46E;
 			minimizedProjectReferenceProxies = 1;
@@ -288,6 +296,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -349,6 +358,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

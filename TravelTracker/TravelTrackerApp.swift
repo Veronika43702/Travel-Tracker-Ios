@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct MyAppApp: App {
+    @StateObject private var themeManager = ThemeManager()
+    
     var body: some Scene {
         WindowGroup {
-                    RootView()
-                        .appTheme()
+            RootView()
+                .appTheme(themeManager: themeManager)
+                .environmentObject(themeManager)
         }
     }
 }

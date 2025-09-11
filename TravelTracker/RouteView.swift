@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct RootView: View {
+    @EnvironmentObject var themeManager: ThemeManager
+    
     var body: some View {
         TabView {
             HomeView()
@@ -20,7 +22,7 @@ struct RootView: View {
                     Label("Calendar", systemImage: "calendar")
                 }
 
-            SettingsView()
+            SettingsView(themeManager: themeManager)
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
                 }
